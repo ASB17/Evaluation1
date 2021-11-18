@@ -95,6 +95,38 @@ main {
   }
 }
 
+/* ******************* NOUS CONTACTER *************** */
+@media (max-width: 550px) {
+  .plan{
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .marge-bouton{
+    margin-bottom: -30px;
+  }
+}
+
+.btn{
+  color: #FFFFFF;
+  max-width: 150px;
+  background: #b31f3d;
+  border: 1px solid #b31f3d;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover{
+  color: #b31f3d;
+  background: #FFFFFF;
+  border: 1px solid #b31f3d;
+}
+
+.btn:focus{
+  box-shadow: none;
+}
+
 /* ****************** FOOTER ********************* */
 .footer{
   color: #FFFFFF;
