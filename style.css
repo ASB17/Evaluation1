@@ -23,6 +23,24 @@
   border: 1px solid #b31f3d;
 }
 
+/* ************** CAROUSSEL ***************** */
+.carousel-inner {
+  margin-top: 98px;
+}
+
+@media (min-width: 1200px) {
+  main,
+  .carousel, 
+  .breadcrumb,
+  footer {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+}
+
 /* **************** GENERAL ******************* */
 .bordeaux-cliquable{
   color: #b31f3d;
