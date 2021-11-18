@@ -6,6 +6,8 @@
   }
 }
 
+
+
 /* **************** NAVBAR ********************* */
 
 .nav-pills .show > .nav-link {
@@ -106,6 +108,40 @@ main {
   .marge-bouton{
     margin-bottom: -30px;
   }
+}
+
+fieldset {
+  border: 1px solid lightgray;
+  border-radius: 1.5%;
+  padding-left: 3px;
+  background-color: #F8F9FA;
+}
+
+.ligneformulaire{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+legend {
+  font-style: italic;
+  font-size: 1em;
+  padding: 5px;
+  text-shadow: 0px 0.5px 0.5px #b31f3d;
+  width: auto;
+  
+}
+
+.form-group{
+  margin-bottom: 0.6rem;
+}
+
+.form-control:focus {
+  border-color: #b31f3d;
+  box-shadow: none;
+}
+
+textarea{
+  resize: none;
 }
 
 .btn{
