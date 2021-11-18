@@ -6,8 +6,6 @@
   }
 }
 
-
-
 /* **************** NAVBAR ********************* */
 
 .nav-pills .show > .nav-link {
@@ -31,7 +29,7 @@
 }
 
 @media (min-width: 1200px) {
-  .main,
+  main,
   .carousel, 
   .breadcrumb,
   .footer {
@@ -40,6 +38,17 @@
     margin-right: auto;
     margin-left: auto;
     
+  }
+}
+
+/* **************** BREADCRUMB **************** */
+.breadcrumb{
+  background-color: #F8F9FA;
+}
+
+@media (min-width: 992px){  
+  .marge-breadcrumb{
+    margin-left: 2rem;
   }
 }
 
@@ -52,7 +61,7 @@
   color: #b31f3d;
 }
 
-.main {
+main {
   background: white;
 }
 
