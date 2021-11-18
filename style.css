@@ -29,7 +29,7 @@
 }
 
 @media (min-width: 1200px) {
-  main,
+  .main,
   .carousel, 
   .breadcrumb,
   .footer {
@@ -61,8 +61,9 @@
   color: #b31f3d;
 }
 
-main {
+.main {
   background: white;
+  font-size: 1.06rem;
 }
 
 .grostitre {
@@ -146,7 +147,7 @@ main {
 
 .legend {
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.1em;
   padding: 5px;
   text-shadow: 0px 0.5px 0.5px #b31f3d;
   width: auto;
@@ -189,21 +190,22 @@ main {
   color: #FFFFFF;
   background: #b31f3d;
   border: 1px solid #b31f3d;
+  font-size: 90%
 }
 
-@media (max-width: 453px) {
+@media (max-width: 509px) {
   .nonvisible1 {
     visibility: hidden;
   }
 }
 
-@media (max-width: 697px) {
+@media (max-width: 772px) {
   .nonvisible2 {
     visibility: hidden;
   }
 }
 
-@media (min-width: 698px) {
+@media (min-width: 773px) {
   .nonvisible3 {
     display: none;
   }
