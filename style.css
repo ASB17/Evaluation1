@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+
+@media (min-width: 1200px){  
+  body {
+    background: url(./images/Fond.jpg);
+  }
+}
+
+
+
+/* **************** NAVBAR ********************* */
+
+.nav-pills .show > .nav-link {
+  color: black;
+  background-color: #dae0e5;
+}
+
+.dropdown-item:active {
+  color: black;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+.navbar-toggler:active{
+  border: 1px solid #b31f3d;
+}
+
+/* ************** CAROUSSEL ***************** */
+.carousel-inner {
+  margin-top: 98px;
+}
+
+@media (min-width: 1200px) {
+  .main,
+  .carousel, 
+  .breadcrumb,
+  .footer {
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+}
+
+/* **************** GENERAL ******************* */
+.bordeaux-cliquable{
+  color: #b31f3d;
+}
+
+.bordeaux-cliquable:hover{
+  color: #b31f3d;
+}
+
+.main {
+  background: white;
+}
+
+.grostitre {
+  font-family: "Love Ya Like A Sister", cursive;
+  color: #b31f3d;
+  font-size: 1.4rem;
+}
+.surligne {
+  color: #b31f3d;
+  font-weight: bold;
+}
+
+/* ******************** ACCUEIL****************** */
+@media (max-width: 550px){  
+  .logo2 {
+    display: none;
+  }
+}
+
+@media (min-width: 550.01px){  
+  .logo2s {
+    display: none; 
+  }
+}
+
+.info1 {
+  color: #b31f3d;
+}
+
+.info1,
+.info2 {
+  font-family: "comic sans ms", sans-serif;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 992px) {
+  .info1,
+  .info2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+/* ******************* NOUS CONTACTER *************** */
+@media (max-width: 550px) {
+  .plan{
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .marge-bouton{
+    margin-bottom: -30px;
+  }
+}
+
+.fieldset {
+  border: 1px solid lightgray;
+  border-radius: 1.5%;
+  padding-left: 3px;
+  background-color: #F8F9FA;
+}
+
+.ligneformulaire{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.legend {
+  font-style: italic;
+  font-size: 1em;
+  padding: 5px;
+  text-shadow: 0px 0.5px 0.5px #b31f3d;
+  width: auto;
+}
+
+.form-group{
+  margin-bottom: 0.6rem;
+}
+
+.form-control:focus {
+  border-color: #b31f3d;
+  box-shadow: none;
+}
+
+.textarea{
+  resize: none;
+}
+
+.btn{
+  color: #FFFFFF;
+  max-width: 150px;
+  background: #b31f3d;
+  border: 1px solid #b31f3d;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover{
+  color: #b31f3d;
+  background: #FFFFFF;
+  border: 1px solid #b31f3d;
+}
+
+.btn:focus{
+  box-shadow: none;
+}
+
+/* ****************** FOOTER ********************* */
+.footer{
+  color: #FFFFFF;
+  background: #b31f3d;
+  border: 1px solid #b31f3d;
+}
+
+@media (max-width: 453px) {
+  .nonvisible1 {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 697px) {
+  .nonvisible2 {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 698px) {
+  .nonvisible3 {
+    display: none;
+  }
+}
