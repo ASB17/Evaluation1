@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>git
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,10 +11,89 @@
    appel aux ressources imaginaires des enfants. Le but est d'initier les enfants 
    à un maximum de ...">
   <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
   <title>Ecole d'Aventures Rochelaise</title>
 </head>
 <body>
   <!-- Barre de navigation -->
+  <nav class="container-xl navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a href="./Ecole_d_Aventures_Rochelaise.html">
+      <img class="mr-3 mr-lg-4 mr-xl-5 ml-lg-5" 
+      src="./images/Logo_Ecole_d_Aventures_Rochelaise.jpg" 
+      alt="Logo Ecole d'Aventures Rochelaise">    
+    </a>
+    <div class="navbar-toggler" 
+      role="button" 
+      data-toggle="collapse" 
+      data-target="#Activites" 
+      aria-controls="Activites" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </div>
+  
+    <div class="collapxse navbar-collapse" id="Activites">
+      <ul class="nav nav-pills small-lg justify-content-center">
+        <li class="nav-item dropdown">
+          <a class="nav-link badge-light dropdown-toggle btn-outline-light!" 
+          href="#" 
+          id="ActivitesAnnuelles" 
+          role="button" 
+          data-toggle="dropdown" 
+          aria-haspopup="true" 
+          aria-expanded="false">
+            Activités annuelles
+          </a>
+          <div class="dropdown-menu" aria-labelledby="ActivitesAnnuelles">
+            <a class="dropdown-item disabled" href="#">Comment ça fonctionne</a>
+            <a class="dropdown-item disabled" href="#">Le rôle des parents</a>
+            <a class="dropdown-item disabled" href="#">Comment s'inscrire</a>
+            <a class="dropdown-item disabled" href="#">Le programme</a>
+            <a class="dropdown-item disabled" href="#">Album photos</a>
+          </div>
+        </li>       
+        <li class="nav-item dropdown">
+          <a class="nav-link badge-light dropdown-toggle btn-outline-light.dropdown-toggle! " 
+          href="#" 
+          id="ActivitesVacances" 
+          role="button" 
+          data-toggle="dropdown" 
+          aria-haspopup="true" 
+          aria-expanded="false">
+            Activités vacances
+          </a>
+          <div class="dropdown-menu" aria-labelledby="ActivitesVacances">
+            <a class="dropdown-item disabled" href="#">Comment ça fonctionne</a>
+            <a class="dropdown-item disabled" href="#">Comment s'inscrire</a>
+            <a class="dropdown-item disabled" href="#">Le programme</a>
+            <a class="dropdown-item disabled" href="#">Album photos</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link badge-light" href="./Evénements.html">Evénements</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link badge-light dropdown-toggle" 
+          href="#" 
+          id="Nous" 
+          role="button" 
+          data-toggle="dropdown" 
+          aria-haspopup="true" 
+          aria-expanded="false">
+            Qui sommes-nous
+          </a>
+          <div class="dropdown-menu" aria-labelledby="Nous">
+            <a class="dropdown-item disabled" href="#">Notre histoire</a>
+            <a class="dropdown-item disabled" href="#">Notre philosophie</a>
+            <a class="dropdown-item disabled" href="#">L'équipe</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link badge-light" href="./Nous_contacter.html">Nous contacter</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   
   <!-- Carousel -->
 
