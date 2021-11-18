@@ -166,6 +166,27 @@
   resize: none;
 }
 
+.case {
+  display: none;
+} 
+
+.case + label::before {
+  content:'\002713';
+  font-weight: bold;
+  font-size: 0.6rem;
+  color: #FFFFFF;
+  background: #FFFFFF;
+  border: 1.5px solid #CED4DA;
+  border-radius: 20%;
+  padding: 0rem 0.15rem;
+  margin-right: 0.5rem;
+}
+
+.case:checked + label::before {
+  border: 1.5px solid #b31f3d;
+  background-color: #b31f3d;
+}
+
 .btn{
   color: #FFFFFF;
   max-width: 150px;
