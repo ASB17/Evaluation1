@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+
+@media (min-width: 1200px){  
+  body {
+    background: url(./images/Fond.jpg);
+  }
+}
+
+/* **************** GENERAL ******************* */
+.bordeaux-cliquable{
+  color: #b31f3d;
+}
+
+.bordeaux-cliquable:hover{
+  color: #b31f3d;
+}
+
+main {
+  background: white;
+}
+
+.grostitre {
+  font-family: "Love Ya Like A Sister", cursive;
+  color: #b31f3d;
+  font-size: 1.4rem;
+}
+.surligne {
+  color: #b31f3d;
+  font-weight: bold;
+}
+
+/* ******************** ACCUEIL****************** */
+@media (max-width: 550px){  
+  .logo2 {
+    display: none;
+  }
+}
+
+@media (min-width: 550.01px){  
+  .logo2s {
+    display: none; 
+  }
+}
+
+.info1 {
+  color: #b31f3d;
+}
+
+.info1,
+.info2 {
+  font-family: "comic sans ms", sans-serif;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 992px) {
+  .info1,
+  .info2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+}
