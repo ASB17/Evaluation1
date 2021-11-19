@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="L'Ecole d'Aventures Rochelaise est un Centre
+    de Loisirs Sans Hébergement sous forme d'association parentale, agréée Jeunesse 
+    et Sport. Notre centre de loisir atypique a pour objectif de faire découvrir aux 
+    enfants âgés de 4 à 8 ans les activités sportives sous forme ludique en faisant 
+    appel aux ressources imaginaires des enfants. Le but est d'initier les enfants 
+    à un maximum de ..."
+    />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nous contacter</title>
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <nav class="container-xl navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a href="./index.html">
+        <img class="mr-3 mr-lg-4 mr-xl-5 ml-lg-5"
+          src="./images/Logo_Ecole_d_Aventures_Rochelaise.jpg"
+          alt="Logo Ecole d'Aventures Rochelaise">
+      </a>
+      <div class="navbar-toggler"
+        role="button"
+        data-toggle="collapse"
+        data-target="#Activites"
+        aria-controls="Activites"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </div>
+
+      <div class="collapse navbar-collapse" id="Activites">
+        <ul class="nav nav-pills small-lg justify-content-center">
+          <li class="nav-item dropdown">
+            <a class="nav-link badge-light dropdown-toggle"
+              href="#"
+              id="ActivitesAnnuelles"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false">
+              Activités annuelles
+            </a>
+            <div class="dropdown-menu" aria-labelledby="ActivitesAnnuelles">
+              <a class="dropdown-item disabled" href="#">Comment ça fonctionne</a>
+              <a class="dropdown-item disabled" href="#">Le rôle des parents</a>
+              <a class="dropdown-item disabled" href="#">Comment s'inscrire</a>
+              <a class="dropdown-item disabled" href="#">Le programme</a>
+              <a class="dropdown-item disabled" href="#">Album photos</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link badge-light dropdown-toggle"
+              href="#"
+              id="ActivitesVacances"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false">
+              Activités vacances
+            </a>
+            <div class="dropdown-menu" aria-labelledby="ActivitesVacances">
+              <a class="dropdown-item disabled" href="#">Comment ça fonctionne</a>
+              <a class="dropdown-item disabled" href="#">Comment s'inscrire</a>
+              <a class="dropdown-item disabled" href="#">Le programme</a>
+              <a class="dropdown-item disabled" href="#">Album photos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link badge-light" href="./evenements.html">Evénements</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link badge-light dropdown-toggle"
+              href="#"
+              id="Nous"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false">
+              Qui sommes-nous
+            </a>
+            <div class="dropdown-menu" aria-labelledby="Nous">
+              <a class="dropdown-item disabled" href="#">Notre histoire</a>
+              <a class="dropdown-item disabled" href="#">Notre philosophie</a>
+              <a class="dropdown-item disabled" href="#">L'équipe</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link badge-light" href="./contact.html">Nous contacter</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page internet   -->
+    <main>  
+      <form class="mt98" action="POST">
+        <fieldset class="fieldset ligneformulaire mb-3 row row-cols-1 row-cols-sm-2">
+          <legend class="legend">Formulaire de contact</legend>
+          <div class="col">
+            <div class="form-group">
+              <label for="nom">Nom</label>
+              <input type="text" class="form-control" id="nom" placeholder="Dupont">
+            </div>
+            <div class="form-group">
+              <label for="prenom">Prénom</label>
+              <input type="text" class="form-control" id="prenom" placeholder="Jacques">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="nom@exemple.com">
+            </div>
+          </div>
+                    
+          <div class="col">
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="textarea form-control" id="message" rows="6"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="checkbox" class="case form-check-input" id="case">
+              <label for="case">Je souhaite m'inscrire à la Newsletter</label>
+            </div>             
+          </div>
+          <button type="submit" class="btn mt-2 mb-3">Envoyer</button>
+        </fieldset>
+      </form>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer text-center small pt-2">
+      <p>
+        Ecole d’Aventures Rochelaise&nbsp;: 10 rue Montréal&nbsp;<span
+          class="nonvisible1"
+        >
+          -</span
+        >
+        17000&nbsp;La&nbsp;Rochelle&nbsp;(La&nbsp;Pallice)&nbsp;<span
+          class="nonvisible2"
+          >-</span
+        >
+        <span class="nonvisible3"><br /> </span
+        >Tél&nbsp;:&nbsp;05.16.07.07.45&nbsp;-&nbsp;Port&nbsp;:&nbsp;06.04.67.28.61
+        <br />
+        Mentions légales | Réalisation : S.Uchlinger
+      </p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
