@@ -19,8 +19,12 @@
   background-color: #f8f9fa;
 }
 
-.navbar-toggler:active{
+.navbar-toggler:focus{
   border: 1px solid #b31f3d;
+}
+
+button:focus {
+   outline: none;
 }
 
 /* Marge après navbar */
